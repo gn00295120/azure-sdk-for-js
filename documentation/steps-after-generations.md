@@ -99,7 +99,7 @@ After the `samples-dev` folder change is finished, you will need to change the `
 You will need to add this part to the `compilerOptions` of your `tsconfig.json` file so that the Samples engine could resolve the `sample-dev` package against the source code of the SDK.
 
 ``` json
-    "paths": { "@azure/agrifood-farming": ["./src/index"] }
+    "paths": { "@azure/agrifood-farming": ["./dist/esm"] }
 ```
 
 And change the *"include"* part to
